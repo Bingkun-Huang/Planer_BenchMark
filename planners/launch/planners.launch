@@ -1,0 +1,14 @@
+<launch>
+    <arg name="pipeline" default="ompl"/>
+    <arg name="ompl_planner" default="RRT"/>
+
+
+    <param name="planning_pipeline" value="$(arg pipeline)"/>
+
+    <group if="$(eval arg('pipeline') == 'ompl')">
+        <param name="default_planner_config" value="$(arg ompl_planner)"/>
+    </group>
+
+    <node name="planners_node" pkg="planners" type="planners" output="screen"/>
+
+</launch>
