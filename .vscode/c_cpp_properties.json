@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/geriatronics/ws_moveit/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/opt/openrobots/include/**",
+        "/opt/openrobots/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+        "/home/geriatronics/ws_moveit/src/geometric_shapes/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit_visual_tools/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+        "/home/geriatronics/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+        "/home/geriatronics/benchmark_ws/src/Planer_BenchMark/planners/include/**",
+        "/home/geriatronics/ws_moveit/src/rviz_visual_tools/include/**",
+        "/home/geriatronics/ws_moveit/src/srdfdom/include/**",
+        "/home/geriatronics/ws_moveit/src/stomp/include/**",
+        "/home/geriatronics/ws_moveit/src/stomp_ros/stomp_moveit/include/**",
+        "/home/geriatronics/ws_moveit/src/stomp_ros/stomp_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
